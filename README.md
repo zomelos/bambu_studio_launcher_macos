@@ -1,6 +1,6 @@
 #  Bambu Studio Launcher for MacOS
 
-This tool let's you start Bambu Studio and make sure that your 3D printer will turn on together with the app.
+This tool lets you start Bambu Studio and make sure that your 3D printer will turn on together with the app.
 No need to launch another app and click on buttons to turn on your printer.
 
 ## Requirements
@@ -44,7 +44,16 @@ Reload environment:
 source ~/.zshrc
 ```
 
-### 3. Start using bambuStudio.sh to launch Bambu Studio instead of launching an app
+### 3. Make sure that the script is executable
+
+Open Terminal app and run:
+
+```
+cd <your script directory>
+chmod +x bambuStudio.sh
+```
+
+### 4. Start using bambuStudio.sh to launch Bambu Studio instead of launching an app
 
 To launch Bambu Studio and turn on your printer in the background:
 
